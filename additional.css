@@ -9,6 +9,15 @@ footer{
     background-color: #aad9a6;
 }
 img{
-    height:;
+    height:auto;
     width: auto;
+}
+.articles{
+    display: grid;
+}
+footer{
+    background-color: #668F80;
+}
+footer nav-link{
+    color: white;
 }
