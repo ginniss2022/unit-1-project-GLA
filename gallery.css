@@ -36,9 +36,11 @@ button.navbar-toggler {
     color: #fff !important;
     background-color: #29292c !important;
 }
-.earth-logo{
-    width:2em;
+
+.earth-logo {
+    width: 2em;
 }
+
 /*.navbar-default {*/
 /*    background-color: none;*/
 /*    border-color: none;*/
@@ -70,25 +72,28 @@ Dropdown .open .dropdown-toggle {
     color: #000 !important;
 }
 
-.gallery-photos{
+.gallery-photos {
     /*max-width: 175px;*/
     width: 100%;
     height: 100%;
     /*size of the images*/
-    max-height: 600px; 
+    max-height: 600px;
 }
-div.col-sm-6.col-md-4.effect1{
-    padding:1%;
+
+div.col-sm-6.col-md-4.effect1 {
+    padding: 1%;
 }
-.effect1{
+
+.effect1 {
     position: relative;
     display: inline-block;
 }
-.effect1 a{
+
+.effect1 a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     width: 100%;
-    left:0;
+    left: 0;
     text-align: center;
     font-size: 40px;
     height: 0px;
@@ -98,25 +103,32 @@ div.col-sm-6.col-md-4.effect1{
     opacity: 0;
     top: 0;
 }
+
 .effect1:hover a {
-    background-color: rgba(200,10,10,0.4);
+    background-color: rgba(200, 10, 10, 0.4);
     visibility: visible;
     height: 100%;
     padding: 32% 0;
     opacity: 1;
 }
-div.col-sm-6.col-md-4.effect2{
-    padding:1%;
+.row-show-frog{
+    display: none;
 }
-.effect2{
+
+div.col-sm-6.col-md-4.effect2 {
+    padding: 1%;
+}
+
+.effect2 {
     position: relative;
     display: inline-block;
 }
-.effect2 a{
+
+.effect2 a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     width: 100%;
-    left:0;
+    left: 0;
     text-align: center;
     font-size: 40px;
     height: 0px;
@@ -126,25 +138,29 @@ div.col-sm-6.col-md-4.effect2{
     opacity: 0;
     top: 0;
 }
+
 .effect2:hover a {
-    background-color: rgba(200,10,10,0.4);
+    background-color: rgba(200, 10, 10, 0.4);
     visibility: visible;
     height: 100%;
     padding: 32% 0;
     opacity: 1;
 }
-div.col-sm-6.col-md-4.effect2{
-    padding:1%;
+
+div.col-sm-6.col-md-4.effect2 {
+    padding: 1%;
 }
-.effect2{
+
+.effect2 {
     position: relative;
     display: inline-block;
 }
-.effect2 a{
+
+.effect2 a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     width: 100%;
-    left:0;
+    left: 0;
     text-align: center;
     font-size: 40px;
     height: 0px;
@@ -154,25 +170,29 @@ div.col-sm-6.col-md-4.effect2{
     opacity: 0;
     top: 0;
 }
+
 .effect2:hover a {
-    background-color: rgba(200,10,10,0.4);
+    background-color: rgba(200, 10, 10, 0.4);
     visibility: visible;
     height: 100%;
     padding: 32% 0;
     opacity: 1;
 }
-div.col-sm-6.col-md-4.effect3{
-    padding:1%;
+
+div.col-sm-6.col-md-4.effect3 {
+    padding: 1%;
 }
-.effect3{
+
+.effect3 {
     position: relative;
     display: inline-block;
 }
-.effect3 a{
+
+.effect3 a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     width: 100%;
-    left:0;
+    left: 0;
     text-align: center;
     font-size: 40px;
     height: 0px;
@@ -182,19 +202,115 @@ div.col-sm-6.col-md-4.effect3{
     opacity: 0;
     top: 0;
 }
+
 .effect3:hover a {
-    background-color: rgba(200,10,10,0.4);
+    background-color: rgba(200, 10, 10, 0.4);
     visibility: visible;
     height: 100%;
     padding: 32% 0;
     opacity: 1;
 }
-div.col-sm-6.col-md-4.effect3{
-    padding:1%;
+
+div.col-sm-6.col-md-4.effect4 {
+    padding: 1%;
 }
-footer{
+
+.effect4 {
+    position: relative;
+    display: inline-block;
+}
+
+.effect4 a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 40px;
+    height: 0px;
+    position: absolute;
+    transition: 0.5s ease all;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+}
+
+.effect4:hover a {
+    background-color: rgba(200, 10, 10, 0.4);
+    visibility: visible;
+    height: 100%;
+    padding: 32% 0;
+    opacity: 1;
+}
+
+div.col-sm-6.col-md-4.effect5 {
+    padding: 1%;
+}
+
+.effect5 {
+    position: relative;
+    display: inline-block;
+}
+
+.effect5 a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 40px;
+    height: 0px;
+    position: absolute;
+    transition: 0.5s ease all;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+}
+
+.effect5:hover a {
+    background-color: rgba(200, 10, 10, 0.4);
+    visibility: visible;
+    height: 100%;
+    padding: 32% 0;
+    opacity: 1;
+}
+
+div.col-sm-6.col-md-4.effect6 {
+    padding: 1%;
+}
+
+.effect6 {
+    position: relative;
+    display: inline-block;
+}
+
+.effect6 a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 40px;
+    height: 0px;
+    position: absolute;
+    transition: 0.5s ease all;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+}
+
+.effect6:hover a {
+    background-color: rgba(200, 10, 10, 0.4);
+    visibility: visible;
+    height: 100%;
+    padding: 32% 0;
+    opacity: 1;
+}
+
+footer {
     background-color: #668F80;
 }
-footer nav-link{
+
+footer nav-link {
     color: white;
 }
