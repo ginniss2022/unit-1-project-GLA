@@ -15,7 +15,7 @@
   <script>
     $(document).ready(function() {
       $(".href-frog").click(function() {
-        $(".row-show-frog").toggle(1000);
+        $(".row.row-show-frog").toggle(1000);
       });
     });
     $(document).ready(function() {
@@ -28,17 +28,17 @@
         $(".row-show-coral").toggle(1000);
       });
     });
-     $(document).ready(function() {
+    $(document).ready(function() {
       $(".href-polarBear").click(function() {
         $(".row-show-polarBear").toggle(1000);
       });
     });
-     $(document).ready(function() {
+    $(document).ready(function() {
       $(".href-scorpion").click(function() {
         $(".row-show-scorpion").toggle(1000);
       });
     });
-       $(document).ready(function() {
+    $(document).ready(function() {
       $(".href-herbs-plants").click(function() {
         $(".row-show-herbs-plants").toggle(1000);
       });
@@ -84,8 +84,13 @@
         <a class="href-coralReef" href="#coralReef">Coral Reef</a>
       </div>
     </div>
-    <div class="row-show-frog" id="poison-Frog">
-      <p>Frog</p>
+    <div class="row row-show-frog" id="poison-Frog">
+      <div class="col-sm-12 col-md-6">
+        <img src="https://post.healthline.com/wp-content/uploads/2019/11/Kambo-Frog-Medicine-1296x728-header-1296x728.jpg">
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p>Frog</p>
+      </div>
     </div>
     <div class="row-show-bird" id="bird">
       <p>Bird</p>
@@ -104,12 +109,12 @@
       </div>
       <div class="col-md-4 col-sm-6 effect6">
         <img clas="gallery-photos" src="https://tching.com/wp-content/uploads/2021/11/herbal-tea.jpg" style="height:100%;width:100%;">
-        <a class ="href-herbs-plants" href="#herbs-plants">Herbs / Plants</a>
+        <a class="href-herbs-plants" href="#herbs-plants">Herbs / Plants</a>
       </div>
       <div class="row-show-polarBear" id="polarBear">
         <p>Polar Bear</p>
       </div>
-      <div class="row-show-scorpion" id ="scorpion">
+      <div class="row-show-scorpion" id="scorpion">
         <p>Scorpion</p>
       </div>
       <div class="row-show-herbs-plants" id="herbs-plants">
