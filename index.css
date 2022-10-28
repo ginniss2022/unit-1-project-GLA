@@ -1,6 +1,8 @@
 body{
     zoom:150%;
     background-image: linear-gradient(darkgreen,lightgreen)!important;
+  
+
 }
 footer {
     background-color: #668F80;
@@ -26,6 +28,87 @@ h1 {
 
 @media all and (max-width: 370px) {
    footer {
-        text-align:center !important; 
+     
     }
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.5;
+    border-radius: 0px;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a,
+.navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+button.navbar-toggler {
+    border-color: antiquewhite;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+    background-color: grey !important;
+
+}
+
+.navbar-toggler:focus {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+/* The active link */
+.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+.earth-logo {
+    width: 2em;
+}
+
+/*.navbar-default {*/
+/*    background-color: none;*/
+/*    border-color: none;*/
+/*}*/
+
+/* Remove border color from the collapsible button */
+.navbar .navbar-toggle {
+    border-color: #f5f5f5;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #f5f5f5;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+/*span.navbar-toggler-icon{*/
+/*    color: red;*/
+/*}*/
+Dropdown .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
 }
