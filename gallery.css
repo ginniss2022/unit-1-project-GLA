@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 /* Add a dark background color with a little bit see-through */
 .navbar {
     margin-bottom: 0;
@@ -225,6 +229,8 @@ div.col-sm-6.col-md-4.effect4 {
     color: #fff;
     width: 100%;
     left: 0;
+    justify-content:center;
+    align-items:center;
     text-align: center;
     font-size: 40px;
     height: 0px;
@@ -239,7 +245,7 @@ div.col-sm-6.col-md-4.effect4 {
     background-color: rgba(200, 10, 10, 0.4);
     visibility: visible;
     height: 100%;
-    padding: 32% 0;
+    padding: 15% 0;
     opacity: 1;
 }
 
@@ -271,7 +277,7 @@ div.col-sm-6.col-md-4.effect5 {
     background-color: rgba(200, 10, 10, 0.4);
     visibility: visible;
     height: 100%;
-    padding: 32% 0;
+    padding: 15% 0;
     opacity: 1;
 }
 
@@ -303,7 +309,7 @@ div.col-sm-6.col-md-4.effect6 {
     background-color: rgba(200, 10, 10, 0.4);
     visibility: visible;
     height: 100%;
-    padding: 32% 0;
+    padding: 15% 0;
     opacity: 1;
 }
 
