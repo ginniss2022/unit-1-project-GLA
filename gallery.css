@@ -110,9 +110,11 @@ div.col-sm-12.col-md-4.effect1 {
     opacity: 1;
     border-radius: 10px;
 }
-img.gallery-photos{
+
+img.gallery-photos {
     border-radius: 10px;
 }
+
 div#poison-Frog.row-show-frog,
 div#bird.row-show-bird,
 div#coralReef.row-show-coral,
@@ -128,26 +130,11 @@ div#herbs-plants.row.row-show-herbs-plants {
     align-items: center;
 }
 
-iframe.video {
-    border-radius: 10px;
-}
-
-img.man {
-    border-radius: 10px;
-}
-
-img.bird#2 {
-    border-radius: 10px;
-}
-
-img.seaLife {
-    border-radius: 10px;
-}
-
-img.snake#2 {
-    border-radius: 10px;
-}
-
+iframe.video,
+img.man,
+img.bird2,
+img.seaLife,
+img.snake2,
 img.tea {
     border-radius: 10px;
 }
