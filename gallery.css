@@ -110,6 +110,7 @@ div.col-sm-6.col-md-4.effect1 {
 
 div#poison-Frog.row-show-frog {
     display: none;
+    /*position: relative;*/
 }
 
 div .col-sm-12.col-md-6 img {
