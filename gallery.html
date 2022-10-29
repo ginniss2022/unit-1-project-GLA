@@ -13,26 +13,28 @@
   <!--JavaScript Library-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script>
-
     $(document).ready(function() {
       $(".href-frog").click(function() {
         $(".row.row-show-frog").toggle(1000);
-        $("#poison-Frog").css("display","flex")
+        $("#poison-Frog").css("display", "flex");
       });
     });
     $(document).ready(function() {
       $(".href-bird").click(function() {
         $(".row-show-bird").toggle(1000);
+        $("#bird").css("display", "flex");
       });
     });
     $(document).ready(function() {
       $(".href-coralReef").click(function() {
         $(".row-show-coral").toggle(1000);
+        $("#coralReef").css("display", "flex");
       });
     });
     $(document).ready(function() {
       $(".href-artic").click(function() {
         $(".row-show-artic").toggle(1000);
+        $("#artic").css("display", "flex");
       });
     });
     $(document).ready(function() {
@@ -104,17 +106,17 @@
         </ul>
       </div>
     </div>
-    <div class="row-show-bird" id="bird">
-      <div class="col-sm-12 col-md-6 offset-md-6">
-        <a href="https://www.audubon.org/news/birds-are-declining-supposedly-untouched-region-amazon-rainforest"><img src="https://carolinabirds.org/People/AthanasLG/Leaftosser,_Rufous-breasted_Nick_Athanas_eq.jpg"></a>
-      </div>
-      <div class="col-sm-12 col-md-6 offset-md-6">
+    <div class="row row-show-bird" id="bird">
+      <div class="col-sm-12 col-md-6">
         <p>The study reported the decline of 21 species of terrestrial and near-ground insect-eaters such as Rufous-bellied Antwrens, Black-tailed Leaftossers, and Wing-banded Wrens in intact
           forest over time after processing data from 79 species. Nine insectivores' observed numbers experienced a 40% decline. 41 other bird species maintained constant numbers, while 10 others,
           predominantly hummingbirds, experienced a minor reduction. There were seven more fruit-eating species.</p>
       </div>
+      <div class="col-sm-12 col-md-6">
+        <a href="https://www.audubon.org/news/birds-are-declining-supposedly-untouched-region-amazon-rainforest"><img src="https://carolinabirds.org/People/AthanasLG/Leaftosser,_Rufous-breasted_Nick_Athanas_eq.jpg"></a>
+      </div>
     </div>
-    <div class="row-show-coral" id="coralReef">
+    <div class="row row-show-coral" id="coralReef">
       <div class="col-sm-12 col-md-6">
         <a href="https://www.noaa.gov/education/resource-collections/marine-life/coral-reef-ecosystems#:~:text=Benefits%20of%20coral%20reef%20ecosystems,food%2C%20income%2C%20and%20protection.">
           <img src="https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/coral%20ecosystems%20reeffish.jpg?itok=zNvXr7Yz">
@@ -138,9 +140,9 @@
         <img clas="gallery-photos" src="https://tching.com/wp-content/uploads/2021/11/herbal-tea.jpg" style="height:100%;width:100%;">
         <a class="href-herbs-plants" href="#herbs-plants">Herbs / Plants</a>
       </div>
-      <div class="row-show-artic" id="artic">
+      <div class="row row-show-artic" id="artic">
         <div class="col-md-6 col-sm-12">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/ULEFPCIPP7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe style="min-width:100%;" height="315" src="https://www.youtube.com/embed/ULEFPCIPP7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6 col-sm-12">
           <p>The world's refrigerator is located in the <a href="https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone">Arctic and Antarctic</a>. They counterbalance other regions of the earth that absorb heat because they are covered
@@ -148,7 +150,7 @@
             means more severe winters because warmer air can cause the polar jet stream, a high-pressure wind that circles the Arctic region, to drop south and bring harsh cold with it.</p>
         </div>
       </div>
-      <div class="row-show-snake" id="snake">
+      <div class="row row-show-snake" id="snake">
         <div class="col-md-6 offset-md-6 col-sm-12">
           <a href="https://pubmed.ncbi.nlm.nih.gov/12974396/#:~:text=Snake%20venom%20contains%20several%20neurotoxic,cancer%20and%20many%20other%20diseases.">
             <img src="https://www.indianapoliszoo.com/gcss/wp-content/uploads/sites/3/2021/07/BlogSnake.jpg">
@@ -161,7 +163,7 @@
             and animals as well as treat a wide range of diseases, such as thrombosis, arthritis, cancer, and many more.</p>
         </div>
       </div>
-      <div class="row-show-herbs-plants" id="herbs-plants">
+      <div class="row row-show-herbs-plants" id="herbs-plants">
         <div class="col-md-6 col-sm-12">
           <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/herbs">
             <img src="https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=600">
