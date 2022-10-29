@@ -4,19 +4,16 @@ html {
 
 /* Add a dark background color with a little bit see-through */
 .navbar {
+    position:sticky !important;
+    z-index: 10;
+    top:0px;
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
-    opacity: 0.5;
     border-radius: 0px;
 }
-/*.sticky{*/
-/*    position: fixed;*/
-/*    top:0;*/
-/*    width: 100%;*/
-/*}*/
 /* Add a gray color to all navbar links */
 .navbar li a,
 .navbar .navbar-brand {
