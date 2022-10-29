@@ -108,8 +108,11 @@ div.col-sm-12.col-md-4.effect1 {
     height: 100%;
     padding: 35% 0;
     opacity: 1;
+    border-radius: 10px;
 }
-
+img.gallery-photos{
+    border-radius: 10px;
+}
 div#poison-Frog.row-show-frog,
 div#bird.row-show-bird,
 div#coralReef.row-show-coral,
@@ -117,7 +120,36 @@ div#artic.row-show-artic,
 div#snake.row.row-show-snake,
 div#herbs-plants.row.row-show-herbs-plants {
     display: none;
-    /*position: relative;*/
+    background-color: rgb(102, 143, 128);
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+iframe.video {
+    border-radius: 10px;
+}
+
+img.man {
+    border-radius: 10px;
+}
+
+img.bird#2 {
+    border-radius: 10px;
+}
+
+img.seaLife {
+    border-radius: 10px;
+}
+
+img.snake#2 {
+    border-radius: 10px;
+}
+
+img.tea {
+    border-radius: 10px;
 }
 
 div .col-sm-12.col-md-6 img {
@@ -154,6 +186,7 @@ div.col-sm-12.col-md-4.effect2 {
     height: 100%;
     padding: 35% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
 div.col-sm-12.col-md-4.effect3 {
@@ -186,6 +219,7 @@ div.col-sm-12.col-md-4.effect3 {
     height: 100%;
     padding: 35% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
 .row-show-coral {
@@ -225,6 +259,7 @@ div.col-sm-12.col-md-4.effect4 {
     height: 100%;
     padding: 25% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
 .row-show-polarBear {
@@ -261,6 +296,7 @@ div.col-sm-12.col-md-4.effect5 {
     height: 100%;
     padding: 25% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
 .row-show-snake {
@@ -298,6 +334,7 @@ div.col-sm-12.col-md-4.effect6 {
     height: 100%;
     padding: 23% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
 .row-show-herbs-plants {

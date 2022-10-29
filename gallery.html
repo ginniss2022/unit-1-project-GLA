@@ -40,11 +40,13 @@
     $(document).ready(function() {
       $(".href-snake").click(function() {
         $(".row-show-snake").toggle(1000);
+        $("#snake").css("display", "flex");
       });
     });
     $(document).ready(function() {
       $(".href-herbs-plants").click(function() {
         $(".row-show-herbs-plants").toggle(1000);
+        $("#herbs-plants").css("display", "flex");
       });
     });
   </script>
@@ -80,7 +82,7 @@
         <a class="href-frog" href="#poison-Frog">Poison Frogs</a>
       </div>
       <div class="col-sm-12 col-md-4 effect2">
-        <img class="href-bird" src="https://www.iheartbrazil.com/wp-content/uploads/2021/03/blue-and-yellow-macaw-735x488.jpg.webp" style="height:100%;width:100%;">
+        <img class="gallery-photos" src="https://www.iheartbrazil.com/wp-content/uploads/2021/03/blue-and-yellow-macaw-735x488.jpg.webp" style="height:100%;width:100%;">
         <a class="href-bird" href="#bird">Birds</a>
       </div>
       <div class="col-sm-12 col-md-4 effect3">
@@ -90,7 +92,7 @@
     </div>
     <div class="row row-show-frog" id="poison-Frog">
       <div class="col-sm-12 col-md-6">
-        <a href="https://www.healthline.com/health/kambo"><img src="https://post.healthline.com/wp-content/uploads/2019/11/Kambo-Frog-Medicine-1296x728-header-1296x728.jpg"></a>
+        <a href="https://www.healthline.com/health/kambo"><img class="man"src="https://post.healthline.com/wp-content/uploads/2019/11/Kambo-Frog-Medicine-1296x728-header-1296x728.jpg"></a>
       </div>
       <div class="col-sm-12 col-md-6">
         <p>Native Americans have utilized kambo for millennia to enhance the body's natural defenses, cleanse the body, and heal illnesses by fending off bad luck. Additionally, it was thought to improve stamina and hunting abilities.
@@ -113,13 +115,13 @@
           predominantly hummingbirds, experienced a minor reduction. There were seven more fruit-eating species.</p>
       </div>
       <div class="col-sm-12 col-md-6">
-        <a href="https://www.audubon.org/news/birds-are-declining-supposedly-untouched-region-amazon-rainforest"><img src="https://carolinabirds.org/People/AthanasLG/Leaftosser,_Rufous-breasted_Nick_Athanas_eq.jpg"></a>
+        <a href="https://www.audubon.org/news/birds-are-declining-supposedly-untouched-region-amazon-rainforest"><img class="bird#2" src="https://carolinabirds.org/People/AthanasLG/Leaftosser,_Rufous-breasted_Nick_Athanas_eq.jpg"></a>
       </div>
     </div>
     <div class="row row-show-coral" id="coralReef">
       <div class="col-sm-12 col-md-6">
         <a href="https://www.noaa.gov/education/resource-collections/marine-life/coral-reef-ecosystems#:~:text=Benefits%20of%20coral%20reef%20ecosystems,food%2C%20income%2C%20and%20protection.">
-          <img src="https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/coral%20ecosystems%20reeffish.jpg?itok=zNvXr7Yz">
+          <img class="seaLife" src="https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/coral%20ecosystems%20reeffish.jpg?itok=zNvXr7Yz">
         </a>
       </div>
       <div class="col-sm-12 col-md-6">
@@ -137,12 +139,12 @@
         <a class="href-snake" href="#snake">Scorpion</a>
       </div>
       <div class="col-md-4 col-sm-12 effect6">
-        <img clas="gallery-photos" src="https://tching.com/wp-content/uploads/2021/11/herbal-tea.jpg" style="height:100%;width:100%;">
+        <img class="gallery-photos" src="https://tching.com/wp-content/uploads/2021/11/herbal-tea.jpg" style="height:100%;width:100%;">
         <a class="href-herbs-plants" href="#herbs-plants">Herbs / Plants</a>
       </div>
       <div class="row row-show-artic" id="artic">
         <div class="col-md-6 col-sm-12">
-          <iframe style="min-width:100%;" height="315" src="https://www.youtube.com/embed/ULEFPCIPP7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video" style="min-width:100%;" height="315" src="https://www.youtube.com/embed/ULEFPCIPP7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6 col-sm-12">
           <p>The world's refrigerator is located in the <a href="https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone">Arctic and Antarctic</a>. They counterbalance other regions of the earth that absorb heat because they are covered
@@ -151,12 +153,12 @@
         </div>
       </div>
       <div class="row row-show-snake" id="snake">
-        <div class="col-md-6 offset-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12">
           <a href="https://pubmed.ncbi.nlm.nih.gov/12974396/#:~:text=Snake%20venom%20contains%20several%20neurotoxic,cancer%20and%20many%20other%20diseases.">
-            <img src="https://www.indianapoliszoo.com/gcss/wp-content/uploads/sites/3/2021/07/BlogSnake.jpg">
+            <img class="snake#2" src="https://www.indianapoliszoo.com/gcss/wp-content/uploads/sites/3/2021/07/BlogSnake.jpg">
           </a>
         </div>
-        <div class="col-md-6 offset-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12">
           <p>Numerous different chemicals, including lectins, disintrigrins, hemorrhagic enzymes,
             neurotoxins, cardiotoxins, cytotoxins, nerve growth factors, and many others, are found
             in snake venom. If not handled properly, these proteins have the potential to kill people
@@ -166,7 +168,7 @@
       <div class="row row-show-herbs-plants" id="herbs-plants">
         <div class="col-md-6 col-sm-12">
           <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/herbs">
-            <img src="https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img class="tea" src="https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=600">
           </a>
         </div>
         <div class="col-md-6 col-sm-12">
