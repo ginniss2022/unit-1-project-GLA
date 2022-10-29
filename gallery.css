@@ -110,9 +110,14 @@ div.col-sm-12.col-md-4.effect1 {
     opacity: 1;
     border-radius: 10px;
 }
+ul.myUL{
+    display: inline-block;
+    text-align: left;
+}
 
 img.gallery-photos {
     border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 div#poison-Frog.row-show-frog,
@@ -128,6 +133,7 @@ div#herbs-plants.row.row-show-herbs-plants {
     padding: 2%;
     border-radius: 20px;
     align-items: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 iframe.video,
