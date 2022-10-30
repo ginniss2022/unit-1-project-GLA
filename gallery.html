@@ -15,7 +15,38 @@
   <script>
     $(document).ready(function() {
       $(".href-frog").click(function() {
-        $(".row-show-frog").toggle(1000);
+        $(".row.row-show-frog").toggle(1000);
+        $("#poison-Frog").css("display", "flex");
+      });
+    });
+    $(document).ready(function() {
+      $(".href-bird").click(function() {
+        $(".row-show-bird").toggle(1000);
+        $("#bird").css("display", "flex");
+      });
+    });
+    $(document).ready(function() {
+      $(".href-coralReef").click(function() {
+        $(".row-show-coral").toggle(1000);
+        $("#coralReef").css("display", "flex");
+      });
+    });
+    $(document).ready(function() {
+      $(".href-artic").click(function() {
+        $(".row-show-artic").toggle(1000);
+        $("#artic").css("display", "flex");
+      });
+    });
+    $(document).ready(function() {
+      $(".href-snake").click(function() {
+        $(".row-show-snake").toggle(1000);
+        $("#snake").css("display", "flex");
+      });
+    });
+    $(document).ready(function() {
+      $(".href-herbs-plants").click(function() {
+        $(".row-show-herbs-plants").toggle(1000);
+        $("#herbs-plants").css("display", "flex");
       });
     });
   </script>
@@ -46,43 +77,104 @@
   </nav>
   <div class="container text-center">
     <div class="row">
-      <div class="col-sm-6 col-md-4 effect1">
+      <div class="col-sm-12 col-md-4 effect1">
         <img class="gallery-photos" src="https://cdn.britannica.com/70/161670-050-8E5BCC80/Red-eyed-tree-frog.jpg?w=600&q=60" style="height:100%;width:100%;">
         <a class="href-frog" href="#poison-Frog">Poison Frogs</a>
       </div>
-      <div class="col-sm-6 col-md-4 effect2">
+      <div class="col-sm-12 col-md-4 effect2">
         <img class="gallery-photos" src="https://www.iheartbrazil.com/wp-content/uploads/2021/03/blue-and-yellow-macaw-735x488.jpg.webp" style="height:100%;width:100%;">
-        <a href="#">Birds</a>
+        <a class="href-bird" href="#bird">Birds</a>
       </div>
-      <div class="col-sm-6 col-md-4 effect3">
+      <div class="col-sm-12 col-md-4 effect3">
         <img class="gallery-photos" src="https://static.scientificamerican.com/sciam/cache/file/A8C52FD5-226A-48F0-9959C8A1E80DAE93_source.jpg" style="height:100%;width:100%;">
-        <a href="#">Coral Reef</a>
+        <a class="href-coralReef" href="#coralReef">Coral Reef</a>
       </div>
     </div>
-    <div class="row-show-frog" id="poison-Frog">
-      <p>Frog</p>
+    <div class="row row-show-frog" id="poison-Frog">
+      <div class="col-sm-12 col-md-6">
+        <a href="https://www.healthline.com/health/kambo"><img class="man" src="https://post.healthline.com/wp-content/uploads/2019/11/Kambo-Frog-Medicine-1296x728-header-1296x728.jpg"></a>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p>Native Americans have utilized kambo for millennia to enhance the body's natural defenses, cleanse the body, and heal illnesses by fending off bad luck. Additionally, it was thought to improve stamina and hunting abilities.
+          Shamans and naturopathic doctors still use it today to remove poisons from the body and treat a variety of illnesses.
+          Despite a lack of study, supporters of kambo believe it can benefit a number of ailments, such as:</p>
+        <ul class = "myUL">
+          <li>Parkinson's disease</li>
+          <li>Cancer</li>
+          <li>Chronic pain</li>
+          <li>Infections</li>
+          <li>Diabetes</li>
+          <li>Vascular conditions</li>
+        </ul>
+      </div>
     </div>
-    <div class="row-show-bird">
-      <p>Bird</p>
+    <div class="row row-show-bird" id="bird">
+      <div class="col-sm-12 col-md-6">
+        <p>The study reported the decline of 21 species of terrestrial and near-ground insect-eaters such as Rufous-bellied Antwrens, Black-tailed Leaftossers, and Wing-banded Wrens in intact
+          forest over time after processing data from 79 species. Nine insectivores' observed numbers experienced a 40% decline. 41 other bird species maintained constant numbers, while 10 others,
+          predominantly hummingbirds, experienced a minor reduction. There were seven more fruit-eating species.</p>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <a href="https://www.audubon.org/news/birds-are-declining-supposedly-untouched-region-amazon-rainforest"><img class="bird2" src="https://carolinabirds.org/People/AthanasLG/Leaftosser,_Rufous-breasted_Nick_Athanas_eq.jpg"></a>
+      </div>
     </div>
-    <!--<div class="row-show-coral">-->
-    <!--  <p>Frog</p>-->
-    <!--</div>-->
-    <!--<div class="row-show-polarbear">-->
-    <!--  <p>Polar</p>-->
-    <!--</div>-->
+    <div class="row row-show-coral" id="coralReef">
+      <div class="col-sm-12 col-md-6">
+        <a href="https://www.noaa.gov/education/resource-collections/marine-life/coral-reef-ecosystems#:~:text=Benefits%20of%20coral%20reef%20ecosystems,food%2C%20income%2C%20and%20protection.">
+          <img class="seaLife" src="https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/coral%20ecosystems%20reeffish.jpg?itok=zNvXr7Yz">
+        </a>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p>Coral reefs offer chances for recreation, serve as a barrier against storms and erosion, and support local economies. They are also a source of
+          fresh medications and food. More than 500 million people rely on reefs for safety, income, and food.</p>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-md-4 col-sm-6 effect4">
+      <div class="col-md-4 col-sm-12 effect4">
         <img class="gallery-photos" src="https://static01.nyt.com/images/2022/04/22/arts/polar1/merlin_205535493_b0ddb701-76e0-4db4-8ef1-d30a9536ed14-jumbo.jpg?quality=75&auto=webp" style="height:100%;width:100%;">
-        <a href="#">afosadofh ds dsufhnsdjfoisd</a>
+        <a class="href-artic" href="#polarBear">Artic</a>
       </div>
-      <div class="col-md-4 col-sm-6 effect5">
-        <img class="gallery-photos" src="https://a-z-animals.com/media/2021/05/Amazing-Desert-Animals_-Scorpion-1024x535.jpg" style="height:100%;width:100%;">
-        <a href="#">adsijnfas sdknfosdnfos</a>
+      <div class="col-md-4 col-sm-12 effect5">
+        <img class="gallery-photos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Hornviper_Cerastes_cerastes.jpg/1200px-Hornviper_Cerastes_cerastes.jpg" style="height:100%;width:100%;">
+        <a class="href-snake" href="#snake">Scorpion</a>
       </div>
-      <div class="col-md-4 col-sm-6 effect6">
-        <img clas="gallery-photos" src="https://tching.com/wp-content/uploads/2021/11/herbal-tea.jpg" style="height:100%;width:100%;">
-        <a href="#">sadokfosdfks sdlkfjosdjfsd</a>
+      <div class="col-md-4 col-sm-12 effect6">
+        <img class="gallery-photos" src="https://tching.com/wp-content/uploads/2021/11/herbal-tea.jpg" style="height:100%;width:100%;">
+        <a class="href-herbs-plants" href="#herbs-plants">Herbs / Plants</a>
+      </div>
+      <div class="row row-show-artic" id="artic">
+        <div class="col-md-6 col-sm-12">
+          <p>The world's refrigerator is located in the <a href="https://www.worldwildlife.org/pages/six-ways-loss-of-arctic-ice-impacts-everyone">Arctic and Antarctic</a>. They counterbalance other regions of the earth that absorb heat because they are covered
+            in white snow and ice that reflect heat back into space. Less ice means less heat is reflected, which leads to more severe heatwaves everywhere. But it also
+            means more severe winters because warmer air can cause the polar jet stream, a high-pressure wind that circles the Arctic region, to drop south and bring harsh cold with it.</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <iframe class="video" style="min-width:100%;" height="315" src="https://www.youtube.com/embed/ULEFPCIPP7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row row-show-snake" id="snake">
+        <div class="col-md-6 col-sm-12">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/12974396/#:~:text=Snake%20venom%20contains%20several%20neurotoxic,cancer%20and%20many%20other%20diseases.">
+            <img class="snake2" src="https://www.indianapoliszoo.com/gcss/wp-content/uploads/sites/3/2021/07/BlogSnake.jpg">
+          </a>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p>Numerous different chemicals, including lectins, disintrigrins, hemorrhagic enzymes,
+            neurotoxins, cardiotoxins, cytotoxins, nerve growth factors, and many others, are found
+            in snake venom. If not handled properly, these proteins have the potential to kill people
+            and animals as well as treat a wide range of diseases, such as thrombosis, arthritis, cancer, and many more.</p>
+        </div>
+      </div>
+      <div class="row row-show-herbs-plants" id="herbs-plants">
+        <div class="col-md-6 col-sm-12">
+          <p> Herb consumption may aid in the management and prevention of diabetes, cancer, and heart disease.
+            Additionally, it may lessen blood clots and have anti-inflammatory and anti-tumor effects.</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/herbs">
+            <img class="tea" src="https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=600">
+          </a>
+        </div>
       </div>
     </div>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

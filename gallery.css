@@ -1,15 +1,17 @@
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 /* Add a dark background color with a little bit see-through */
 .navbar {
+    position: sticky !important;
+    z-index: 10;
+    top: 0px;
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
-    opacity: 0.5;
     border-radius: 0px;
 }
 
@@ -41,15 +43,6 @@ button.navbar-toggler {
     background-color: #29292c !important;
 }
 
-.earth-logo {
-    width: 2em;
-}
-
-/*.navbar-default {*/
-/*    background-color: none;*/
-/*    border-color: none;*/
-/*}*/
-
 /* Remove border color from the collapsible button */
 .navbar .navbar-toggle {
     border-color: #f5f5f5;
@@ -63,9 +56,6 @@ button.navbar-toggler {
     text-align: center;
 }
 
-/*span.navbar-toggler-icon{*/
-/*    color: red;*/
-/*}*/
 Dropdown .open .dropdown-toggle {
     color: #fff;
     background-color: #555 !important;
@@ -84,7 +74,11 @@ Dropdown .open .dropdown-toggle {
     max-height: 600px;
 }
 
-div.col-sm-6.col-md-4.effect1 {
+/*.row{*/
+/*    margin-bottom: 1%;*/
+/*    margin-top: 1%;*/
+/*}*/
+div.col-sm-12.col-md-4.effect1 {
     padding: 1%;
 }
 
@@ -109,17 +103,53 @@ div.col-sm-6.col-md-4.effect1 {
 }
 
 .effect1:hover a {
-    background-color: rgba(200, 10, 10, 0.4);
+    background-color: rgba(102, 143, 128, 0.5);
     visibility: visible;
     height: 100%;
-    padding: 32% 0;
+    padding: 35% 0;
     opacity: 1;
+    border-radius: 10px;
 }
-.row-show-frog{
+ul.myUL{
+    display: inline-block;
+    text-align: left;
+}
+
+img.gallery-photos {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div#poison-Frog.row-show-frog,
+div#bird.row-show-bird,
+div#coralReef.row-show-coral,
+div#artic.row-show-artic,
+div#snake.row.row-show-snake,
+div#herbs-plants.row.row-show-herbs-plants {
     display: none;
+    background-color: rgb(102, 143, 128);
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
-div.col-sm-6.col-md-4.effect2 {
+iframe.video,
+img.man,
+img.bird2,
+img.seaLife,
+img.snake2,
+img.tea {
+    border-radius: 10px;
+}
+
+div .col-sm-12.col-md-6 img {
+    width: 100%;
+}
+
+div.col-sm-12.col-md-4.effect2 {
     padding: 1%;
 }
 
@@ -144,46 +174,15 @@ div.col-sm-6.col-md-4.effect2 {
 }
 
 .effect2:hover a {
-    background-color: rgba(200, 10, 10, 0.4);
+    background-color: rgba(102, 143, 128, 0.5);
     visibility: visible;
     height: 100%;
-    padding: 32% 0;
+    padding: 35% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
-div.col-sm-6.col-md-4.effect2 {
-    padding: 1%;
-}
-
-.effect2 {
-    position: relative;
-    display: inline-block;
-}
-
-.effect2 a {
-    text-decoration: none;
-    color: #fff;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    font-size: 40px;
-    height: 0px;
-    position: absolute;
-    transition: 0.5s ease all;
-    visibility: hidden;
-    opacity: 0;
-    top: 0;
-}
-
-.effect2:hover a {
-    background-color: rgba(200, 10, 10, 0.4);
-    visibility: visible;
-    height: 100%;
-    padding: 32% 0;
-    opacity: 1;
-}
-
-div.col-sm-6.col-md-4.effect3 {
+div.col-sm-12.col-md-4.effect3 {
     padding: 1%;
 }
 
@@ -208,14 +207,19 @@ div.col-sm-6.col-md-4.effect3 {
 }
 
 .effect3:hover a {
-    background-color: rgba(200, 10, 10, 0.4);
+    background-color: rgba(102, 143, 128, 0.5);
     visibility: visible;
     height: 100%;
-    padding: 32% 0;
+    padding: 35% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
-div.col-sm-6.col-md-4.effect4 {
+.row-show-coral {
+    display: none;
+}
+
+div.col-sm-12.col-md-4.effect4 {
     padding: 1%;
 }
 
@@ -229,8 +233,8 @@ div.col-sm-6.col-md-4.effect4 {
     color: #fff;
     width: 100%;
     left: 0;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 40px;
     height: 0px;
@@ -242,14 +246,20 @@ div.col-sm-6.col-md-4.effect4 {
 }
 
 .effect4:hover a {
-    background-color: rgba(200, 10, 10, 0.4);
+    /*rgba(200, 10, 10, 0.4)*/
+    background-color: rgba(102, 143, 128, 0.5);
     visibility: visible;
     height: 100%;
-    padding: 15% 0;
+    padding: 25% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
-div.col-sm-6.col-md-4.effect5 {
+.row-show-polarBear {
+    display: none;
+}
+
+div.col-sm-12.col-md-4.effect5 {
     padding: 1%;
 }
 
@@ -274,14 +284,20 @@ div.col-sm-6.col-md-4.effect5 {
 }
 
 .effect5:hover a {
-    background-color: rgba(200, 10, 10, 0.4);
+    background-color: rgba(102, 143, 128, 0.5);
     visibility: visible;
     height: 100%;
-    padding: 15% 0;
+    padding: 25% 0;
     opacity: 1;
+    border-radius: 10px;
 }
 
-div.col-sm-6.col-md-4.effect6 {
+.row-show-snake {
+    display: none;
+}
+
+
+div.col-sm-12.col-md-4.effect6 {
     padding: 1%;
 }
 
@@ -306,11 +322,16 @@ div.col-sm-6.col-md-4.effect6 {
 }
 
 .effect6:hover a {
-    background-color: rgba(200, 10, 10, 0.4);
+    background-color: rgba(102, 143, 128, 0.5);
     visibility: visible;
     height: 100%;
-    padding: 15% 0;
+    padding: 23% 0;
     opacity: 1;
+    border-radius: 10px;
+}
+
+.row-show-herbs-plants {
+    display: none;
 }
 
 footer {
