@@ -51,6 +51,12 @@ P {
     footer {}
 }
 
+header {
+    position: sticky !important;
+    z-index: 10;
+    top: 0px;
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: #2D2D30;
