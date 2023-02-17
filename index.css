@@ -1,6 +1,6 @@
 body {
     zoom: 150%;
-    background-image: linear-gradient(darkgreen, lightgreen) !important;
+   
 }
 
 #container {
@@ -15,11 +15,27 @@ body {
     text-align: center;
     padding-top: 5px;
 }
-
+button.navbar-toggler {
+    /*border-color: antiquewhite;*/
+}
 footer {
-    background-color: #lightgreen;
+    
     border-top: solid 2px;
     color: #D5D5D5;
+    background-color: #668F80;
+}
+.navbar-nav li a:hover {
+    
+    background-color: grey !important;
+
+}
+navbar-toggler:focus {
+    background-color: #fff;
+    box-shadow: none;
+}
+.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
 }
 
 footer nav-link {
@@ -31,8 +47,9 @@ div .container {
 }
 
 header {
-    background-color: darkgreen;
+   background-color: #2d2d30;
     margin-bottom: 2em;
+    color: white;
 }
 
 h1 {
